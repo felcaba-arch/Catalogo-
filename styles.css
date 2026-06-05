@@ -89,3 +89,10 @@ footer strong{color:var(--rojo2)}
   .hero{padding:28px 16px 24px}
   .main{padding:20px 16px 40px}
 }
+
+/* PRECIO EN CUOTAS */
+.card-price-wrap{margin-bottom:10px}
+.card-cuota{display:flex;align-items:baseline;gap:6px;margin-bottom:3px}
+.cuota-num{font-family:var(--display);font-size:22px;font-weight:800;color:white;line-height:1}
+.cuota-label{font-family:var(--display);font-size:12px;color:var(--verde);font-weight:600;letter-spacing:.5px}
+.card-total{font-family:var(--display);font-size:11px;color:var(--texto2);letter-spacing:.5px}
