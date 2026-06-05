@@ -1,7 +1,7 @@
 // ═══════════════════════════════════════════════════
 // ⚙️ CONFIGURACIÓN
 // ═══════════════════════════════════════════════════
-const SHEET_ID   = '1iXWwiryS3jshLAFA8iqN8GSOXbjOYntdAGmutJ9upOI';
+const SHEET_ID   = '1eINZoX_VQWzBQuU65-34S0wETsUPR7H68V7AvnwYf4w';
 const SHEET_NAME = 'Catalogo';
 const CUOTAS     = 18;
 // ═══════════════════════════════════════════════════
