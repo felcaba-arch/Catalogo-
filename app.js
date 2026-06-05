@@ -1,7 +1,7 @@
 // ═══════════════════════════════════════════════════
 // ⚙️ CONFIGURACIÓN — REEMPLAZÁ ESTE VALOR
 // ═══════════════════════════════════════════════════
-const SHEET_ID   = '1i4hkB1j5PDni4GRuoyst7VsN01cCwWqyYalvGrdNZYM';
+const SHEET_ID   = '1AkMT9NDzC2CnrF54vQFbLS4P6guOVnFRHl88SCg50dU';
 const SHEET_NAME = 'Catalogo';
 // ═══════════════════════════════════════════════════
 
