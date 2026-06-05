@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo Claro — Stock Disponible</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">CLARO<span>.</span></div>
+  <div class="header-right">
+    <div class="live-badge"><div class="live-dot"></div>STOCK EN VIVO</div>
+    <div class="update-time" id="update-time">—</div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-label">Catálogo Oficial</div>
+  <h1 class="hero-title">Equipos &amp;<br><span>Accesorios</span></h1>
+  <p class="hero-sub">Solo mostramos lo que tenemos disponible hoy. Precios actualizados en tiempo real.</p>
+</div>
+
+<div class="stats-bar">
+  <div class="stat"><div class="stat-num" id="stat-total">—</div><div class="stat-label">productos<br>disponibles</div></div>
+  <div class="stat"><div class="stat-num" id="stat-phones">—</div><div class="stat-label">teléfonos<br>en stock</div></div>
+  <div class="stat"><div class="stat-num" id="stat-acc">—</div><div class="stat-label">accesorios<br>disponibles</div></div>
+  <div class="stat"><div class="stat-num" id="stat-planes">—</div><div class="stat-label">planes y<br>servicios</div></div>
+</div>
+
+<div class="filters-wrap">
+  <button class="filter-btn active" onclick="filterCat('todos', this)">Todos</button>
+  <button class="filter-btn" onclick="filterCat('Teléfonos', this)">Teléfonos</button>
+  <button class="filter-btn" onclick="filterCat('Accesorios', this)">Accesorios</button>
+  <button class="filter-btn" onclick="filterCat('Planes', this)">Planes</button>
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input class="search-input" type="text" placeholder="Buscar producto..." oninput="searchProducts(this.value)">
+  </div>
+</div>
+
+<div class="main" id="main-content">
+  <div class="loader">
+    <div>CARGANDO STOCK...</div>
+    <div class="loader-bar"><div class="loader-fill"></div></div>
+  </div>
+</div>
+
+<footer>
+  Catálogo actualizado desde Google Sheets &nbsp;·&nbsp; <strong>CLARO Paraguay</strong> &nbsp;·&nbsp; Solo productos con stock disponible
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
